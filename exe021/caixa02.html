@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        main {
+            display: flex;
+            margin: 20px;
+            
+        }
+        #assuntos {
+            width: 30%;
+            background-color: #e2e2e2;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 10px 0px;
+        }
+        #noticias {
+            width: 70%;
+            background-color: #fff;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Degas Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+            
+
+        </section>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <article>
+                <h3>Título da Notícia</h3>
+                <p>Conteúdo da notícia...</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Degas
+    </footer>
+</body>
+</html>

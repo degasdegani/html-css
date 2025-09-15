@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+        a:active {
+            color: green;
+        }
+a::before {
+            content: '✵';
+            margin-right: 8px;
+            color: rgb(95, 22, 9);
+        }
+        a::after {
+            content: '✵';
+            color: rgb(95, 22, 9);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    
+        <ul>
+    <li><a href="https://github.com/degasdegani" target="_blank">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/eduardo-degani/" target="_blank">Linkedin</a></li>
+    <li><a href="https://github.com/degasdegani?tab=repositories" target="_blank">Repositório GitHub</a></li>
+</ul>
+    
+</body>
+</html>
